@@ -97,7 +97,8 @@ const styles = StyleSheet.create({
     padding: 20,
     backgroundColor: 'white',
     borderRadius: 10,
-    alignItems: 'center',
+    alignItems: 'center', 
+    
     shadowRadius: 5,
     shadowOpacity: 0.2,
     shadowColor: '#000',
