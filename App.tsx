@@ -1,23 +1,20 @@
-import { ImageBase, SafeAreaView, StyleSheet, Text, View } from "react-native";
-import Home from "./src/screen/Home";
-import Submit from "./src/screen/Submit";
-import Create from "./src/screen/Create";
-
-
-
+import { SafeAreaView, StyleSheet, Text } from "react-native";
+import Visual from "./src/screen/Visual"
 const App = () => {
-  <SafeAreaView style={styles.container}>
- <Home/>
-  </SafeAreaView>
-};
+  return(
 
+ 
+  <SafeAreaView style={styles.container}>
+    <Visual/>
+  </SafeAreaView>
+   )
+}
 
 
 export default App
 const styles=StyleSheet.create({
+
   container:{
     flex:1,
-    // alignItems:"center",
-    // justifyContent:"center",
-  },
-});
+  }
+})
